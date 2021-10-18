@@ -1,0 +1,52 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #F38181;
+
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  color: #F38181;
+  text-align: center;
+}
+
+#title {
+
+}
+.intro {
+  font-size: 2rem;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.projects {
+  font-size: 1.25rem;
+  max-width: 70%;
+  background-color: #FCE38A;
+  margin: auto;
+  padding: 0 1em 5px 1em;
+}
+
+.pets {
+  margin:auto;
+  max-width: 50%;
+}
+table {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  background-color: #F38181;
+}
+
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(205deg, #EAFFD0 50%, #95E1D3 50%);
+  min-height: 1000px;
+  font-family: sans-serif;
+}

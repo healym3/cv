@@ -1,85 +1,101 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset = "utf-8">
-      <title>Howdy</title>
-   </head>
 
-   <body>
-      
-	  <h1>MacKenzie Healy</h1>
-<p>I love programming and my animals.  Eventually I will develop my personal website to be more professional and detailed.  However, for now I'm keeping it simple.</p>
+<head>
+  <meta charset="utf-8">
+  <title>Howdy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
-      <h2>Programming Projects</h2>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-      <p><strong>I started programming when I was 11, and it's been my passion ever since.</strong></p>
-      <p>In highschool I developed an Access Database for the Juvenile Assessment Center with Galveston ISD.
-         Once I graduated, I became a programmer and systems analyst for Prologic Technology.
-         My main focus was writing SQL, Java, and Groovy scripts in the Student Data department.
-      </p>
-	  <p>Many years later, I have returned to school to pursue my Bachelors in Computer Science.  
-        Recently I have worked on the following projects:</p>
+<body>
+
+<section id="title">
+  <div class="intro">
+    <h1>MacKenzie Healy</h1>
+    <p>I love programming and my animals. Eventually I will develop my personal website to be more professional and detailed. However, for now I'm keeping it simple.</p>
+  </div>
+</section>
+
+
+  <div class="projects">
+    <h2>Programming Projects</h2>
+
+    <p><strong>I started programming when I was 11, and it's been my passion ever since.</strong></p>
+    <p>In highschool I developed an Access Database for the Juvenile Assessment Center with Galveston ISD.
+      Once I graduated, I became a programmer and systems analyst for Prologic Technology.
+      My main focus was writing SQL, Java, and Groovy scripts in the Student Data department.
+    </p>
+    <p>Many years later, I have returned to school to pursue my Bachelors in Computer Science.
+      Recently I have worked on the following projects:</p>
+    <ul>
+      <li>Fall Semester:</li>
       <ul>
-         <li>Fall Semester:</li>
-            <ul>
-               <li>Encryption program using Vigenere and Caesar Cipher</li>
-               <li>Web crawler</li>
-            </ul> 
-         </li> 
-         <li>Summer Semester:</li>
-            <ul>
-               <li>IOT device measuring & displaying object distance.</li>
-            </ul> 
-         </li> 
-         <li>Spring Semester:</li>
-            <ul>
-               <li>Library Study Room Reservation System</li>
-            </ul> 
-         </li> 
-
+        <li>Encryption program using Vigenere and Caesar Cipher</li>
+        <li>Web crawler</li>
       </ul>
-      <h2>My favorite pets!</h2>
-	  <table border = "1">
+      </li>
+      <li>Summer Semester:</li>
+      <ul>
+        <li>IOT device measuring & displaying object distance.</li>
+      </ul>
+      </li>
+      <li>Spring Semester:</li>
+      <ul>
+        <li>Library Study Room Reservation System</li>
+      </ul>
+      </li>
 
-         <!-- the <caption> tag summarizes the table's -->
-         <!-- contents (this helps visually impaired people) -->
-         <caption><strong>Table of Pets</strong></caption>
+    </ul>
+  </div>
+<div class="pets">
+  <h2><strong>MY FAVORITE PETS!</strong></h2>
+  <table border="1">
 
-         <!-- the <thead> section appears first in the table -->
-         <!-- it formats the table header area -->
-         <thead>
-            <tr> <!-- <tr> inserts a table row -->
-               <th>Picture</th> <!-- insert a heading cell -->
-               <th>Name</th>
-            </tr>
-         </thead>
+    <!-- the <caption> tag summarizes the table's -->
+    <!-- contents (this helps visually impaired people) -->
+    <!-- <caption><strong>Table of Pets</strong></caption> -->
 
-         <!-- the <tfoot> section appears last in the table -->
-         <!-- it formats the table footer -->
-         
+    <!-- the <thead> section appears first in the table -->
+    <!-- it formats the table header area -->
+    <thead>
+      <tr>
+        <!-- <tr> inserts a table row -->
+        <th>Picture</th> <!-- insert a heading cell -->
+        <th>Name</th>
+      </tr>
+    </thead>
 
-         <!-- all table content is enclosed -->
-         <!-- within the <tbody> -->
-           
-         <tbody>
-            <tr>
-               <td><img src="jax1.jpg" style="object-fit:contain"></td> <!-- insert a data cell -->
-               <td style="text-align:center;font-weight:bold">Jax</td>
-            </tr>
-            <tr>
-               <td><img src="sebastian1.jpg"></td>
-               <td style="text-align:center;font-weight:bold">Sebastian</td>
-            </tr>
-            <tr>
-               <td><img src="henry1.jpg"></td>
-               <td style="text-align:center;font-weight:bold">Henry</td>
-            </tr>
-            <tr>
-               <td><img src="puppy1.jpg"></td>
-               <td style="text-align:center;font-weight:bold">Puppy. Yes it's a cat named Puppy</td>
-            </tr>
-         </tbody>
-      
-      </table>
-   </body>
+    <!-- the <tfoot> section appears last in the table -->
+    <!-- it formats the table footer -->
+
+
+    <!-- all table content is enclosed -->
+    <!-- within the <tbody> -->
+
+    <tbody>
+      <tr>
+        <td><img src="jax1.jpg" style="object-fit:contain"></td> <!-- insert a data cell -->
+        <td style="text-align:center;font-weight:bold">Jax</td>
+      </tr>
+      <tr>
+        <td><img src="sebastian1.jpg"></td>
+        <td style="text-align:center;font-weight:bold">Sebastian</td>
+      </tr>
+      <tr>
+        <td><img src="henry1.jpg"></td>
+        <td style="text-align:center;font-weight:bold">Henry</td>
+      </tr>
+      <tr>
+        <td><img src="puppy1.jpg"></td>
+        <td style="text-align:center;font-weight:bold">Puppy. Yes it's a cat named Puppy</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
+</body>
+
 </html>
