@@ -1,27 +1,45 @@
+
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   line-height: 1.5;
   font-weight: 900;
   color: #F38181;
-
 }
 
 h2 {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #F38181;
   text-align: center;
 }
-
-#title {
+.projects h2 {
+  text-shadow: -1px 1px black;
 
 }
+
+#title {}
+
 .intro {
   font-size: 2rem;
   max-width: 50%;
   text-align: center;
   margin: auto;
+}
+
+.intro img {
+  /* margin: 80px; */
+  -webkit-transition: -webkit-transform 4s;
+  -moz-transition: -moz-transform 4s;
+  -o-transition: -o-transform 4s;
+  transition: transform 4s;
+}
+
+.intro img:hover {
+  -webkit-transform: rotate(360deg) scale(1, 1);
+  -moz-transform: rotate(360deg) scale(1, 1);
+  -o-transform: rotate(360deg) scale(1, 1);
+  transform: rotate(360deg) scale(1, 1);
 }
 
 .projects {
@@ -30,23 +48,43 @@ h2 {
   background-color: #FCE38A;
   margin: auto;
   padding: 0 1em 5px 1em;
+  border: 3px solid;
+  border-radius: 16px;
 }
 
 .pets {
-  margin:auto;
+  margin: auto;
   max-width: 50%;
 }
+
+.pet-header h2{
+  color: black;
+  text-shadow: 0 0 8px #F38181;
+}
+
 table {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 900;
   background-color: #F38181;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-html {
+#page-top {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(205deg, #EAFFD0 50%, #95E1D3 50%);
   min-height: 1000px;
-  font-family: sans-serif;
+  padding-bottom: 50px;
+}
+#page-bottom {
+  background-image: -webkit-linear-gradient(205deg, #95E1D3 50%, #424874 50%);
+  min-height: 1000px;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+html{
+  background-color:black;
 }
